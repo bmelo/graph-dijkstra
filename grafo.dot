@@ -1,0 +1,18 @@
+graph G {
+node [color=salmon shape=circle height=0.0 width=0.0 peripheries=2];
+1 [label="S"]
+2 [label="U"]
+3 [label="V"]
+4 [label="X"]
+5 [label="Y"]
+1 -- 2[arrowhead=normal label="10.0"]
+2 -- 3[arrowhead=normal label="1.0"]
+3 -- 5[arrowhead=normal label="4.0"]
+5 -- 1[arrowhead=normal label="7.0"]
+1 -- 4[arrowhead=normal label="5.0"]
+4 -- 3[arrowhead=normal label="9.0"]
+4 -- 5[arrowhead=normal label="2.0"]
+4 -- 2[arrowhead=normal label="3.0"]
+2 -- 4[arrowhead=normal label="2.0"]
+5 -- 3[arrowhead=normal label="6.0"]
+}
